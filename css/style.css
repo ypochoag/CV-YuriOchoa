@@ -1,10 +1,9 @@
-#headerPhoto {
+header{
     background-color:#cfb9e0 ;
     text-align: center;
 }
 
-.firstTitle{
-    
+h1{ 
     background-color:#9370DB;
     color:rgb(255, 255, 255);
     font-size: 30px;
@@ -21,5 +20,7 @@
 #footer{
     background-color:rgb(175, 173, 180) ;
     color:rgb(255, 255, 255);
-    text-align: right;
+    text-align:center;
+    font-size: 15px;
+    line-height:15px;
 }
