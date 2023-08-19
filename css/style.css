@@ -1,26 +1,84 @@
-header{
-    background-color:#cfb9e0 ;
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(/img/desktop-wallpaper-linkedin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.profileContainer {
+  position: relative;
+  height:250px;
+}
+
+.profileContainer img {
+  position: absolute;
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  border-radius: 200px;
+  outline: 6px solid #f3cef7;
+  outline-offset: -7px;
+  margin: 20px 20px;
+  left: 30px;
+}
+
+#contact {
+  position: absolute;
+  display: inline-block;
+  width: 280px;
+  background-color: rgba(250, 244, 255,0.7);
+  padding-left: 15px;
+  border: 2px dashed black;
+  border-radius: 25px;
+  text-align: left;
+  margin: 20px 20px;
+  right: 25px;
+}
+
+#botonPersonal {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    background-color: rgba(51, 235, 225, 0.849);
+    border: 2px solid rgb(3, 78, 83);
+    border-radius: 25px;
     text-align: center;
+    right: 140px;
+    bottom:1px;
+    text-decoration: none;
+
+  }
+
+
+h1 {
+  background-color: #9370db;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
 }
 
-h1{ 
-    background-color:#9370DB;
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    line-height: 50px;
+.secondTitle {
+  background-color: #dfa9df;
+  color: rgb(83, 79, 79);
+  line-height: 30px;
 }
 
-.secondTitle{
-    
-    background-color:#dfa9df;
-    color:rgb(83, 79, 79);
-    line-height: 30px;
+.icon {
+  position: relative;
+  bottom: 5px;
 }
 
-#footer{
-    background-color:rgb(175, 173, 180) ;
-    color:rgb(255, 255, 255);
-    text-align:center;
-    font-size: 15px;
-    line-height:15px;
+footer {
+  position: relative;
+  background-color: #9370db;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
